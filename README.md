@@ -58,3 +58,9 @@ Example:
 ```
 sudo grumpy_cat /dev/input/event3 psmouse
 ```
+
+To make it run in background:
+
+```
+sudo setsid grumpy_cat /dev/input/event3 psmouse &
+```

@@ -8,7 +8,7 @@ disable touchpad while typing on keyboard (and this is very annoying).
 What grumpy cat is doing:
 
 * monitor your keyboard
-* unload mouse module while typingk
+* unload mouse module while typing
 * load module again after 750 ms timeout (editable in source, as `timeoutNanoseconds`)
 
 This approach is brutal, it means you keep unloading/loading driver, so it's
@@ -30,7 +30,8 @@ not needed anymore.
 go get github.com/oelmekki/grumpy_cat
 ```
 
-If you're not used to golang, you can find a build for amd64 in the release page.
+If you're not used to golang, you can find a build for amd64 in the 
+[release page](https://github.com/oelmekki/grumpy_cat/releases).
 
 
 ## Usage

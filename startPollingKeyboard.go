@@ -1,3 +1,8 @@
+/*
+ * input_event kernel mapping and handling in go from this file comes from
+ * https://github.com/Banrai/PiScan/blob/master/scanner/scanner.go
+ * Thus, same licence applies.
+ */
 package main
 
 import (
